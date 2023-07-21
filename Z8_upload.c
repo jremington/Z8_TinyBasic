@@ -1,5 +1,8 @@
-/** PC Driver program for the Dutchtronic Oscilloscope Clock, USB-RS232 adapters
- *  New serial port code was based on on Pololu's MaestroSerialExampleCWindows:
+/** PC Driver serial port program for USB-RS232 UART adapters
+ * This code uploads a Tiny Basic program file to the serial port on a Z8, 2400 Baud
+ * :REM statements are stripped out to save memory on the Z8
+ *
+ *  Serial port code was based on on Pololu's MaestroSerialExampleCWindows:
  *  Example program for sending and receiving bytes from the Maestro over a serial port
  *  in C on Windows.
  *

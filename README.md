@@ -5,7 +5,7 @@ This is an implementation of John Conway's Game of Life that will run on the Mic
 Code was modified from http://www.ittybittycomputers.com/ittybitty/tinybasic/
 
 For some reason, upload fails after about 2,000 characters of Basic code are transmitted, so the code had to be stripped down to under that.
-The C program reads a text file containing the Basic code, and transmits it, character by character (with appropriate delays) to the Z8 board via the serial port. The upload code strips :REM statements from the ends of Tiny Basic code lines, in order to save space.
+The C program reads a text file containing the Basic code, and transmits it, character by character (with appropriate delays) to the Z8 board via the serial port. The upload code strips :REM statements from the ends of Tiny Basic code lines, in order to save space. Serial Baud rate 2400 set by switches (assumed).
 
 Tested with a 15x15 array, the Game of Life timestep on the Z8 takes about 4 minutes clock time.
 

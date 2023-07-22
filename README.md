@@ -5,7 +5,7 @@ This is an implementation of John Conway's Game of Life that will run on the Mic
 Code was modified from http://www.ittybittycomputers.com/ittybitty/tinybasic/
 
 For some reason, upload fails after about 2,000 characters of Basic code are transmitted, so the code had to be stripped down to under that.
-The C program reads a text file containing the Basic code, and transmits it, character by character (with appropriate delays) to the Z8 board via the serial port. The upload code strips :REM statements from the ends of Tiny Basic code lines, in order to save space. Serial Baud rate 2400 set by switches (assumed).
+The C program reads a text file containing the Basic code, and transmits it, character by character (with appropriate delays) to the Z8 board via the serial port. The upload code strips :REM statements from the ends of Tiny Basic code lines, in order to save space. The loader assumes serial Baud rate 2400, set by switches on the Z8 board.
 
 Note: to reserve the bottom portion of RAM for user data, addressed using operators "@" and "^", add the size of the desired block to pointer R8-R9 (big endian!) and type NEW. On power up reset, R8-9 contains HEX 0800. For example, to reserve locations 0-2047 for user data and 2048-4095 for the BASIC program and data, press the Z8 RESET button and type at the ":" prompt
 ```

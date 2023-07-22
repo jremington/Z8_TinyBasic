@@ -1,7 +1,7 @@
 # Z8_TinyBasic
 Game of Life and C loader for MicroMint Z8 Basic/Debug board
 
-This is an implementation of John Conway's Game of Life that will run on the MicroMint Z8 Basic board (Zilog Z8 processor with 4K SRAM).
+This post includes an implementation of John Conway's Game of Life that will run on the MicroMint Z8 Basic board (Zilog Z8 processor with 4K SRAM).
 Code was modified from http://www.ittybittycomputers.com/ittybitty/tinybasic/
 
 For some reason, upload fails after about 2,000 characters of Basic code are transmitted, so the code had to be stripped down to under that.

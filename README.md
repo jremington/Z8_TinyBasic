@@ -1,5 +1,5 @@
 # Z8_TinyBasic
-Game of Life and C loader for MicroMint Z8 Basic/Debug board
+**Game of Life and C loader for MicroMint Z8 Basic/Debug board**
 
 I dug my trusty old Z8 Micro out of storage, and it still works perfectly, after 42 years!
 

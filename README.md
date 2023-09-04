@@ -28,4 +28,4 @@ https://www.mikrocontroller.net/attachment/448641/Z8_BASIC_Part_One.pdf
 
 https://www.mikrocontroller.net/attachment/448642/Z8_BASIC_Part_Two.pdf
 
-#NOTE: digital outputs are TTL levels, and usually need pullup resistors to interface with CMOS inputs.
+#NOTE: digital outputs are TTL levels, and may need pullup resistors to interface with CMOS inputs.
